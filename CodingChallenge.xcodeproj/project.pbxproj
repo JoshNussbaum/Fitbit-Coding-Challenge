@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		035011EE1CDBEAC800E743B9 /* libCorePlot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 035011ED1CDBEAC800E743B9 /* libCorePlot.a */; };
+		6669147819B43B992837D4B9 /* libPods-CodingChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3048E6387667050F25F575 /* libPods-CodingChallenge.a */; };
+		D33700CF1BFCFE0700AB3209 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33700CE1BFCFE0700AB3209 /* QuartzCore.framework */; };
+		D33700D11BFCFE7700AB3209 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33700D01BFCFE7700AB3209 /* Accelerate.framework */; };
+		D373B4EF1BFA7B2F00D4B654 /* FlexTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D373B4EE1BFA7B2F00D4B654 /* FlexTableViewCell.m */; };
+		D373B4F21BFAA43E00D4B654 /* StepsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D373B4F11BFAA43E00D4B654 /* StepsTableViewController.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		D373B4F51BFB000500D4B654 /* StepTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D373B4F41BFB000500D4B654 /* StepTableViewCell.m */; };
+		D38941391BFBA2CE00ED4E7E /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D38941381BFBA2CE00ED4E7E /* Utilities.m */; };
+		D389413C1BFBBB0300ED4E7E /* StepsGraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D389413B1BFBBB0300ED4E7E /* StepsGraphViewController.m */; };
+		D3BB6EC61BFA69040058236C /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BB6EC51BFA69040058236C /* HomeTableViewCell.m */; };
 		D3F155441BF704C30021A4DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F155431BF704C30021A4DA /* main.m */; };
 		D3F155471BF704C30021A4DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F155461BF704C30021A4DA /* AppDelegate.m */; };
-		D3F1554A1BF704C30021A4DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F155491BF704C30021A4DA /* ViewController.m */; };
 		D3F1554D1BF704C30021A4DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F1554B1BF704C30021A4DA /* Main.storyboard */; };
 		D3F1554F1BF704C30021A4DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3F1554E1BF704C30021A4DA /* Images.xcassets */; };
 		D3F155521BF704C30021A4DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3F155501BF704C30021A4DA /* LaunchScreen.xib */; };
 		D3F1555E1BF704C30021A4DA /* CodingChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F1555D1BF704C30021A4DA /* CodingChallengeTests.m */; };
+		D3F155681BF705EA0021A4DA /* Notes in Resources */ = {isa = PBXBuildFile; fileRef = D3F155671BF705EA0021A4DA /* Notes */; };
+		D3F1556E1BF834E30021A4DA /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F1556D1BF834E30021A4DA /* User.m */; };
+		D3F155711BF834EE0021A4DA /* Day.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F155701BF834EE0021A4DA /* Day.m */; };
+		D3F1557A1BF976590021A4DA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F155791BF976590021A4DA /* HomeViewController.m */; };
+		D3F155871BF9CCE40021A4DA /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3F155841BF9CCE40021A4DA /* FontAwesome.ttf */; };
+		D3F155881BF9CCE40021A4DA /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F155861BF9CCE40021A4DA /* NSString+FontAwesome.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +42,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		035011ED1CDBEAC800E743B9 /* libCorePlot.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCorePlot.a; path = "../../../Library/Developer/Xcode/DerivedData/CodingChallenge-gimlrjuobmrxglfgelyuiiwnbvnw/Build/Products/Debug-iphonesimulator/libCorePlot.a"; sourceTree = "<group>"; };
+		7C3048E6387667050F25F575 /* libPods-CodingChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodingChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F6A57C4DECF720F8AF3A9B /* Pods-CodingChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodingChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodingChallenge/Pods-CodingChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		C8103A8BA8B6BAB558BC42F8 /* Pods-CodingChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodingChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodingChallenge/Pods-CodingChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		D33700CE1BFCFE0700AB3209 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D33700D01BFCFE7700AB3209 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		D373B4ED1BFA7B2F00D4B654 /* FlexTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexTableViewCell.h; sourceTree = "<group>"; };
+		D373B4EE1BFA7B2F00D4B654 /* FlexTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexTableViewCell.m; sourceTree = "<group>"; };
+		D373B4F01BFAA43E00D4B654 /* StepsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepsTableViewController.h; sourceTree = "<group>"; };
+		D373B4F11BFAA43E00D4B654 /* StepsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepsTableViewController.m; sourceTree = "<group>"; };
+		D373B4F31BFB000500D4B654 /* StepTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepTableViewCell.h; sourceTree = "<group>"; };
+		D373B4F41BFB000500D4B654 /* StepTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepTableViewCell.m; sourceTree = "<group>"; };
+		D38941371BFBA2CE00ED4E7E /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		D38941381BFBA2CE00ED4E7E /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		D389413A1BFBBB0300ED4E7E /* StepsGraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepsGraphViewController.h; sourceTree = "<group>"; };
+		D389413B1BFBBB0300ED4E7E /* StepsGraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepsGraphViewController.m; sourceTree = "<group>"; };
+		D3BB6EC41BFA69040058236C /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		D3BB6EC51BFA69040058236C /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
 		D3F1553E1BF704C30021A4DA /* CodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F155421BF704C30021A4DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3F155431BF704C30021A4DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D3F155451BF704C30021A4DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D3F155461BF704C30021A4DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D3F155481BF704C30021A4DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D3F155491BF704C30021A4DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D3F1554C1BF704C30021A4DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3F1554E1BF704C30021A4DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D3F155511BF704C30021A4DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D3F155571BF704C30021A4DA /* CodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F1555C1BF704C30021A4DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3F1555D1BF704C30021A4DA /* CodingChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodingChallengeTests.m; sourceTree = "<group>"; };
+		D3F155671BF705EA0021A4DA /* Notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notes; sourceTree = "<group>"; };
+		D3F1556C1BF834E30021A4DA /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		D3F1556D1BF834E30021A4DA /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		D3F1556F1BF834EE0021A4DA /* Day.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day.h; sourceTree = "<group>"; };
+		D3F155701BF834EE0021A4DA /* Day.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Day.m; sourceTree = "<group>"; };
+		D3F155781BF976590021A4DA /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D3F155791BF976590021A4DA /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D3F155841BF9CCE40021A4DA /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = fonts/FontAwesome.ttf; sourceTree = "<group>"; };
+		D3F155851BF9CCE40021A4DA /* NSString+FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+FontAwesome.h"; path = "fonts/NSString+FontAwesome.h"; sourceTree = "<group>"; };
+		D3F155861BF9CCE40021A4DA /* NSString+FontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+FontAwesome.m"; path = "fonts/NSString+FontAwesome.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +88,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				035011EE1CDBEAC800E743B9 /* libCorePlot.a in Frameworks */,
+				D33700D11BFCFE7700AB3209 /* Accelerate.framework in Frameworks */,
+				D33700CF1BFCFE0700AB3209 /* QuartzCore.framework in Frameworks */,
+				6669147819B43B992837D4B9 /* libPods-CodingChallenge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +105,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20FFA00E2CB5E15FBAA4ECB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0F6A57C4DECF720F8AF3A9B /* Pods-CodingChallenge.debug.xcconfig */,
+				C8103A8BA8B6BAB558BC42F8 /* Pods-CodingChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		972B2E9322E06BAA91061931 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				035011ED1CDBEAC800E743B9 /* libCorePlot.a */,
+				D33700D01BFCFE7700AB3209 /* Accelerate.framework */,
+				D33700CE1BFCFE0700AB3209 /* QuartzCore.framework */,
+				7C3048E6387667050F25F575 /* libPods-CodingChallenge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D3F155351BF704C30021A4DA = {
 			isa = PBXGroup;
 			children = (
 				D3F155401BF704C30021A4DA /* CodingChallenge */,
 				D3F1555A1BF704C30021A4DA /* CodingChallengeTests */,
 				D3F1553F1BF704C30021A4DA /* Products */,
+				972B2E9322E06BAA91061931 /* Frameworks */,
+				20FFA00E2CB5E15FBAA4ECB9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,12 +150,16 @@
 			children = (
 				D3F155451BF704C30021A4DA /* AppDelegate.h */,
 				D3F155461BF704C30021A4DA /* AppDelegate.m */,
-				D3F155481BF704C30021A4DA /* ViewController.h */,
-				D3F155491BF704C30021A4DA /* ViewController.m */,
+				D38941371BFBA2CE00ED4E7E /* Utilities.h */,
+				D38941381BFBA2CE00ED4E7E /* Utilities.m */,
+				D3F155691BF834A60021A4DA /* Models */,
+				D3F1556B1BF834B80021A4DA /* Views */,
+				D3F1556A1BF834AD0021A4DA /* Controllers */,
 				D3F1554B1BF704C30021A4DA /* Main.storyboard */,
 				D3F1554E1BF704C30021A4DA /* Images.xcassets */,
 				D3F155501BF704C30021A4DA /* LaunchScreen.xib */,
 				D3F155411BF704C30021A4DA /* Supporting Files */,
+				D3F155671BF705EA0021A4DA /* Notes */,
 			);
 			path = CodingChallenge;
 			sourceTree = "<group>";
@@ -96,6 +167,7 @@
 		D3F155411BF704C30021A4DA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D3F155831BF9CCD50021A4DA /* fonts */,
 				D3F155421BF704C30021A4DA /* Info.plist */,
 				D3F155431BF704C30021A4DA /* main.m */,
 			);
@@ -119,6 +191,53 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D3F155691BF834A60021A4DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3F1556C1BF834E30021A4DA /* User.h */,
+				D3F1556D1BF834E30021A4DA /* User.m */,
+				D3F1556F1BF834EE0021A4DA /* Day.h */,
+				D3F155701BF834EE0021A4DA /* Day.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D3F1556A1BF834AD0021A4DA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3F155781BF976590021A4DA /* HomeViewController.h */,
+				D3F155791BF976590021A4DA /* HomeViewController.m */,
+				D373B4F01BFAA43E00D4B654 /* StepsTableViewController.h */,
+				D373B4F11BFAA43E00D4B654 /* StepsTableViewController.m */,
+				D389413A1BFBBB0300ED4E7E /* StepsGraphViewController.h */,
+				D389413B1BFBBB0300ED4E7E /* StepsGraphViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D3F1556B1BF834B80021A4DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3BB6EC41BFA69040058236C /* HomeTableViewCell.h */,
+				D3BB6EC51BFA69040058236C /* HomeTableViewCell.m */,
+				D373B4ED1BFA7B2F00D4B654 /* FlexTableViewCell.h */,
+				D373B4EE1BFA7B2F00D4B654 /* FlexTableViewCell.m */,
+				D373B4F31BFB000500D4B654 /* StepTableViewCell.h */,
+				D373B4F41BFB000500D4B654 /* StepTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D3F155831BF9CCD50021A4DA /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D3F155841BF9CCE40021A4DA /* FontAwesome.ttf */,
+				D3F155851BF9CCE40021A4DA /* NSString+FontAwesome.h */,
+				D3F155861BF9CCE40021A4DA /* NSString+FontAwesome.m */,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3F155611BF704C30021A4DA /* Build configuration list for PBXNativeTarget "CodingChallenge" */;
 			buildPhases = (
+				C9B4510110CAA7D8EC88F891 /* Check Pods Manifest.lock */,
 				D3F1553A1BF704C30021A4DA /* Sources */,
 				D3F1553B1BF704C30021A4DA /* Frameworks */,
 				D3F1553C1BF704C30021A4DA /* Resources */,
+				893BAB73965CDD42C1DF273F /* Embed Pods Frameworks */,
+				5480B2FE8A72A425407DA5A1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,7 +285,7 @@
 		D3F155361BF704C30021A4DA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Josh Nussbaum";
 				TargetAttributes = {
 					D3F1553D1BF704C30021A4DA = {
@@ -200,7 +322,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3F1554D1BF704C30021A4DA /* Main.storyboard in Resources */,
+				D3F155871BF9CCE40021A4DA /* FontAwesome.ttf in Resources */,
 				D3F155521BF704C30021A4DA /* LaunchScreen.xib in Resources */,
+				D3F155681BF705EA0021A4DA /* Notes in Resources */,
 				D3F1554F1BF704C30021A4DA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,14 +338,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5480B2FE8A72A425407DA5A1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodingChallenge/Pods-CodingChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		893BAB73965CDD42C1DF273F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodingChallenge/Pods-CodingChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9B4510110CAA7D8EC88F891 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D3F1553A1BF704C30021A4DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3F1554A1BF704C30021A4DA /* ViewController.m in Sources */,
 				D3F155471BF704C30021A4DA /* AppDelegate.m in Sources */,
 				D3F155441BF704C30021A4DA /* main.m in Sources */,
+				D373B4EF1BFA7B2F00D4B654 /* FlexTableViewCell.m in Sources */,
+				D373B4F51BFB000500D4B654 /* StepTableViewCell.m in Sources */,
+				D3F155711BF834EE0021A4DA /* Day.m in Sources */,
+				D3F155881BF9CCE40021A4DA /* NSString+FontAwesome.m in Sources */,
+				D38941391BFBA2CE00ED4E7E /* Utilities.m in Sources */,
+				D3BB6EC61BFA69040058236C /* HomeTableViewCell.m in Sources */,
+				D3F1557A1BF976590021A4DA /* HomeViewController.m in Sources */,
+				D389413C1BFBBB0300ED4E7E /* StepsGraphViewController.m in Sources */,
+				D3F1556E1BF834E30021A4DA /* User.m in Sources */,
+				D373B4F21BFAA43E00D4B654 /* StepsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +465,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -345,20 +527,50 @@
 		};
 		D3F155621BF704C30021A4DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0F6A57C4DECF720F8AF3A9B /* Pods-CodingChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CodingChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "SurveyMonkey.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		D3F155631BF704C30021A4DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8103A8BA8B6BAB558BC42F8 /* Pods-CodingChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CodingChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "SurveyMonkey.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -377,6 +589,7 @@
 				);
 				INFOPLIST_FILE = CodingChallengeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SurveyMonkey.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodingChallenge.app/CodingChallenge";
 			};
@@ -392,6 +605,7 @@
 				);
 				INFOPLIST_FILE = CodingChallengeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SurveyMonkey.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodingChallenge.app/CodingChallenge";
 			};
@@ -416,6 +630,7 @@
 				D3F155631BF704C30021A4DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3F155641BF704C30021A4DA /* Build configuration list for PBXNativeTarget "CodingChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +639,7 @@
 				D3F155661BF704C30021A4DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

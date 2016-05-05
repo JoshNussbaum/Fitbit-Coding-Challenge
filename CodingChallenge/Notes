@@ -1,0 +1,83 @@
+Fitbit App
+
+User (id, name, weight)
+Day (id, date, steps, miles, calories-burned, active-minutes, weight, calories-consumed, water-consumed)
+UserDayIntersection(user-id, day-id)
+
+(Maybe just make all of the above specific to one user, since only one user can be logged in at once)
+
+So, get rid of day id and the intersection table, and just know that all Day entries are for the current User.
+Also, we can use a singleton class for user and we only need to store Days in SQLite (or could avoid storing)
+
+
+Log In Screen:
+- Input fake data to SQLite or create the array of Day objects and pass it to Screen #1 (could also not have a log in screen)
+
+
+Screen #1 (Home Screen):
+
+    Current User object
+    Current Day object
+
+    *Layout:
+        UITableView with a static first row with left/right buttons and a set number of cells
+
+        Cells can be one of three types:
+            (All should have label for fontawesome icon)
+            1st - Numer followed by text with a progress bar
+            2nd - Number followed by text
+            3rd - Text
+
+    *On load:
+        - Get the current date.
+        - Check if there is a day entry for that date
+        - If so, fill in all the tableviewcells with the appropriate data, checking for cell type by rowindex
+        - If not, fill in what you can from the user info (weight) and make everything else default
+
+    *On left/right button click:
+        - Get the date before or after current date
+        - Check if there is an entry for the date
+        - If so, fill in all the tableviewcells with the appropriate data, checking for cell type by rowindex
+        - If not, fill in what you can from the user info (weight) and make everything else default
+
+    *On steps click:
+        - Segue to the steps page (doesn't matter what day you were on)
+
+
+Screen #2 (Steps Screen):
+
+    Current User object
+
+    *Layout:
+        Graph showing steps
+        UITableView with a static first row with left/right buttons and a set number of cells
+
+
+Steps Table View
+
+// Basically, get dictionary of weeks, each week has a day with steps in it. Weeks start on sunday end on saturday
+// Each week is a section
+// weeks[0] = 'This week'
+// weeks[1] = 'last week'
+
+// When you reach the bottom, add a bunch more dates to the weeksData Array then reload (with days of 0 steps)
+
+// Basically, for each row, check if you have that date (based on the offset by the rowindex)
+// and then if you don't fill in the date and 0 steps, if not use the data
+
+
+// Determine based on the row index what week the day is in (compared to current date)
+// Then use all the steps data
+
+// Determine how big the first section is based on current date (go back till you find sunday)
+// Then rest of sections are 7
+
+// Scrolling, once you hit end of table view, dynamically generate a bunch more days based on the row index and add
+// them to the array
+
+
+// Set huge number of cells, for each index path, get date, check if date exists for user, if so fill in data for that,
+// if not, index paths 0-7 get names. (Just get string by index path for them and make that the label)
+
+// Think of good way to dynamically generate bunch of dats with steps
+
